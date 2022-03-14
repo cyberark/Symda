@@ -1,0 +1,13 @@
+URL: https://go.microsoft.com/fwlink/?linkid=2128854
+Version: 10.0.19041.685
+License: Redistribution
+License File: LICENSE.txt
+
+Description:
+Version 10.0.19041.685 of the redistributable symsrv.dll from Debugging Tools for Windows, as distributed with WDK 10.
+
+Local Modifications:
+The files above were extracted from the Debugging Tools for Windows program
+directory, after installing them by running the the setup program from the WDK 10 SDK.
+
+Copyright (c) Microsoft Corporation. All rights reserved.
