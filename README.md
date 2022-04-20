@@ -5,7 +5,8 @@
 ## Overview
 
 Symda is an open-source tool designed as a helper tool for Frida.
-The tool aims to download and parse symbol files for a given executable. The symbol server the script uses can be configured, and by default, it uses the Microsoft public symbol server.
+The tool aims to download and parse symbol files for a given executable. The symbol server that the script uses can be configured. By default, it uses the Microsoft public symbol server.
+It should make it easier to hook functions by using the symbol files.
 
 Note - this tool is designed only for Windows executables. 
 
@@ -13,7 +14,7 @@ Note - this tool is designed only for Windows executables.
 
 ## Usage
 
-1. Change the FUNCTION_LIST variable according to your needs inside symda_python_runner.py .
+1. Change the FUNCTION_LIST (functions to hook) variable according to your needs inside symda_python_runner.py .
 For example:
 ```python
 ...
